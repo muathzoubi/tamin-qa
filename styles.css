@@ -1,0 +1,139 @@
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Tajawal' !important;
+}
+body,
+input,
+textarea,
+button,
+.button,
+.faux-button,
+.wp-block-button__link,
+.wp-block-file__button,
+.has-drop-cap:not(:focus)::first-letter,
+.entry-content .wp-block-archives,
+.entry-content .wp-block-categories,
+.entry-content .wp-block-cover-image,
+.entry-content .wp-block-latest-comments,
+.entry-content .wp-block-latest-posts,
+.entry-content .wp-block-pullquote,
+.entry-content .wp-block-quote.is-large,
+.entry-content .wp-block-quote.is-style-large,
+.entry-content .wp-block-archives *,
+.entry-content .wp-block-categories *,
+.entry-content .wp-block-latest-posts *,
+.entry-content .wp-block-latest-comments *,
+.entry-content p,
+.entry-content ol,
+.entry-content ul,
+.entry-content dl,
+.entry-content dt,
+.entry-content cite,
+.entry-content figcaption,
+.entry-content .wp-caption-text,
+.comment-content p,
+.comment-content ol,
+.comment-content ul,
+.comment-content dl,
+.comment-content dt,
+.comment-content cite,
+.comment-content figcaption,
+.comment-content .wp-caption-text,
+.widget_text p,
+.widget_text ol,
+.widget_text ul,
+.widget_text dl,
+.widget_text dt,
+.widget-content .rssSummary,
+.widget-content cite,
+.widget-content figcaption,
+.widget-content .wp-caption-text {
+  font-family: 'Tajawal' !important;
+}
+.ltr {
+  direction: ltr;
+}
+header .header-main .btn-menu-toggler {
+  margin-right: 2rem;
+  margin-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+}
+/* Header */
+.btn.btn-blue {
+  width: auto;
+}
+header .mega-menu nav ul > li {
+  text-align: right;
+}
+/* Home Page */
+.banner-buttons button,
+.banner-buttons .button {
+  margin-right: 0;
+  margin-left: 2rem;
+}
+.insurance-cta h1,
+.insurance-cta p {
+  text-align: right;
+}
+
+.card-header i {
+  right: inherit !important;
+  left: 7px !important;
+}
+.widget-blocks ul.footer-menu li.menu-item-has-children > a {
+  font-weight: 600;
+}
+.widget-blocks ul.footer-menu li ul li.menu-item-has-children > a {
+  font-weight: 500;
+}
+.quad-name {
+  margin-right: 0;
+  margin-left: 25px;
+}
+.q-doc a {
+  letter-spacing: 0;
+}
+.page-template-financial-report .q-doc::after {
+  right: -17px;
+  left: inherit;
+}
+.card-header .btn {
+  text-align: right;
+}
+.single-block a {
+  margin: 0 -15px -15px -15px;
+}
+.news-wrapper .news-item-wrapper .news-item .details .desc a span {
+  transform: scaleX(-1);
+}
+
+.footer-middle .brand-logo a {
+  margin-left: auto;
+  margin-right: 0;
+  display: block;
+  text-align: right;
+}
+.form-control {
+  text-align: right !important;
+}
+
+.mySwiper2 .swiper-slide {
+  padding-left: 0px;
+  padding-right: 60px;
+}
+.mySwiper2 .swiper-button-next {
+  left: 80px !important;
+  right: auto !important;
+}
+.mySwiper2 .swiper-rtl .swiper-button-prev {
+  right: var(--swiper-navigation-sides-offset, 10px) !important;
+  left: auto !important;
+}
